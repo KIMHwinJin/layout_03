@@ -6,45 +6,34 @@
     margin: 0;
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    color: inherit;
+}
+
 body{
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-.container{
-    width: 1000px;
-    margin: 0 auto
-    ;
-}
-
-h1{
-    font-size: 40px;
-    padding: 20px;
-}
-
 .head{
     background-color: #ccc;
-    text-align: center;
+    width: 1000px;
     padding: 40px;
+    text-align: center;
+    margin: 0 auto;
 }
 
-.head h2{
-    font-size: 36px;
-}
-
-.contents{
-    display: flex;
-}
-
-.left{
-    padding: 20px;
+.nav{
     background-color: #ddd;
-    width: 30%;
 }
 
-.rigt{
-    padding: 20px;
-    background-color: #eee;
-    width: 70%;
+.nav ul{
+    /* background-color: red; */
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .bottom{
